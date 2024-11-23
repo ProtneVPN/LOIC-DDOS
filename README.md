@@ -9,31 +9,11 @@ A Distributed Denial of Service (DDoS) attack is a cyber attack where multiple c
 ## What is LOIC?
 LOIC (Low Orbit Ion Cannon) is a network stress testing tool commonly used to perform Distributed Denial of Service (DDoS) attacks. It was initially developed for stress testing and debugging network services but has also been widely used for malicious purposes.
 
-## Key Features
-User-Friendly Interface: LOIC provides a graphical user interface (GUI) that makes it accessible for users with limited command-line experience.
-Multiple Attack Methods: It supports various types of attack methods including TCP, UDP, and HTTP floods, allowing users to overwhelm a target with high volumes of traffic.
-Customizable Parameters: Users can configure attack parameters such as the target IP address, port, and the number of threads used to generate traffic.
-How LOIC Works
-LOIC operates by sending a large volume of requests to a target server. The traffic generated can exceed the capacity of the server or network, causing it to become slow or unresponsive. The tool allows for coordinated attacks from multiple sources, often by leveraging botnets or multiple instances of LOIC running simultaneously.
-
 ## Usage
 LOIC can be used to simulate DDoS attacks in a controlled environment for educational purposes or stress testing. It is important to note that unauthorized use of LOIC for attacking external networks or servers is illegal and unethical.
 
 ## Ethical Considerations
 This project focuses on using LOIC for educational purposes within a controlled environment. Always ensure you have explicit permission before conducting any network stress tests or attacks. Unauthorized DDoS attacks can result in serious legal consequences and ethical violati
-
-
-## Installation
-Prerequisites
-- Kali Linux
-- LOIC tool
-- Git
-
-## Installation Steps
-sudo apt-get update
-sudo apt-get install git
-git clone https://github.com/NewEraCracker/LOIC.git
-
 
 ## STEPS TO PERFORM ATTACK
 cd LOIC
